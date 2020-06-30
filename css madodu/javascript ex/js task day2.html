@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Continued</title>
+</head>
+<body onload="afterload()">
+	<h1 id="head1"></h1>
+	Date: <input type="date" name="date" id="date" onchange="changed()"><br>
+	<p id="p1"></p>
+	<input type="button" name="button1" value="Show in LOG" onclick="showinlog()">
+	<h1 id="yolo" onmouseover="hover(this)" onmouseout="goaway(this)">Hover over me!</h1>
+
+	<br>Enter something here:<input type="text" name="keycheck" id="keycheck" onkeydown="key()"><br>
+	<br>Enter a Number:<input type="Number" name="num" id="num">
+	<input type="button" name="numcheck" value="Check!" onclick="checknum()">
+	<p id="numres"></p>
+	<p id="fib"></p>
+	<p id="fibres"></p>
+	<p id="error"></p>
+	<p id="finally"></p>
+	<input type="button" name="abthtmlbtn" value="Check the word" id="abthtmlbtn" onclick="checkword()">
+	<p id="abthtml"></p>
+	<p id="abthtmlres"></p>
+<script src="./script/main2.js"></script>
+</body>
+</html>
