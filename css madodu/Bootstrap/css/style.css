@@ -1,0 +1,25 @@
+*{
+	padding:10px;
+}
+#head1{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:darkred; 
+	font-family: Verdana;
+	font-weight: bolder;
+}
+#nav ul li a{
+	color: white;
+	background-color: #404040;
+}
+#nav ul{
+	background-color: #404040;
+
+}
+#navhome {
+	font-size: 25px;
+}
+#head2 {
+	word-spacing: 0.5em;
+}
