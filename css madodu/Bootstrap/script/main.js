@@ -11,7 +11,21 @@ $(document).ready(function(){
 	});
 	$('#button4').click(function(){
 		$('#para1').css('display','block');
-	});
 
+	});
+	$('#dblclick').dblclick(function(){
+		alert("Double clicked the button");
+	})
+	$('#toggle').click(function(){
+		$('#toggleh3').toggle('fast');
+	})
+
+	$('#fadeinbtn').click(function(){
+		$('#fade').fadeIn(2000);
+		$('#fade').css('background-color','darkgray');
+	})
+	$('#fadeoutbtn').click(function(){
+		$('#fade').fadeOut('slow');
+	})
 });
 
